@@ -14,4 +14,4 @@ RUN rpm -i http://developer.download.nvidia.com/compute/cuda/repos/rhel6/x86_64/
 RUN yum -y update
 
 # Install Cuda
-RUN yum -y install cuda
+RUN yum -y install cuda-${CUDA_VERSION}
