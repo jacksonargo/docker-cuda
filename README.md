@@ -1,7 +1,5 @@
 # docker-cuda
 
-Cuda
-====
 An automated docker build for a full cuda environment
 
 #### Table of Contents
